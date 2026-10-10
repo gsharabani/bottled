@@ -38,7 +38,7 @@ function renderWine() {
   const t = state.wineTotal;
   $("#wine").innerHTML = `
     <h2 class="mb-2 text-lg font-medium text-neutral-800">יין — קלאסיקו דנה</h2>
-    <p class="mb-5 text-sm text-neutral-500">מבחר משובח שנבחר בפינצטה | 40₪–50₪ לבקבוק</p>
+    <p class="mb-5 text-sm text-neutral-500">${WINE_SUBTITLE}</p>
     <div class="mb-5 overflow-hidden rounded-xl border border-neutral-200 bg-white">
       <img src="assets/wine-dana-BgkePLO9.png" alt="קלאסיקו דנה" class="h-48 w-full object-contain p-4 sm:h-64" loading="lazy" />
     </div>

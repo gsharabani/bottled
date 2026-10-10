@@ -19,6 +19,7 @@ There is no server and no database. The order exists only when the customer pres
 - **WhatsApp number**: change `WHATSAPP_NUMBER` (international format, digits only, e.g. `972501234567`).
 - **Add a product**: add a line to a category's `products` list and put the image in `assets/`.
 - **Pickup points**: edit `PICKUP_POINTS`.
+- **Wine price range**: edit `WINE_SUBTITLE`.
 
 ## Run locally
 ```bash

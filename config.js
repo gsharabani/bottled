@@ -29,10 +29,9 @@ const CATEGORIES = [
     products: [{ id: "bacardi", name: "בקרדי", image: "assets/bacardi-BFpy4Oj0.avif" }],
   },
   {
-    id: "sangria", title: "סנגריה / קאווה",
+    id: "sangria", title: "סנגריה",
     products: [
-      { id: "sangria-don-simon", name: "דון סימון סנגריה 1.5 ליטר", image: "assets/sangria-red-CYDWsN39.avif" },
-      { id: "cava", name: "קאווה", image: "assets/drink1-pKXJJe47.avif" },
+      { id: "sangria-don-simon", name: "דון סימון סנגריה 1.5 ליטר (ארגז של 6 בקבוקים)", image: "assets/sangria-red-CYDWsN39.avif" },
     ],
   },
 ];
@@ -59,3 +58,6 @@ const PICKUP_POINTS = [
   { id: "lachish", label: "משלוח לבית הלקוח (רק בלכיש)" },
   { id: "dana-sela", label: "דנה סלע" },
 ];
+
+// Line under the wine title (price range per bottle)
+const WINE_SUBTITLE = "מבחר משובח שנבחר בפינצטה | 40₪–60₪ לבקבוק";
