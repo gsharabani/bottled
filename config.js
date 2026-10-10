@@ -53,7 +53,7 @@ const WINE_BOX_OPTIONS = [
 ];
 
 // Orders are sent to this WhatsApp number (international format, digits only, no "+")
-const WHATSAPP_NUMBER = "972543131973";
+const WHATSAPP_NUMBER = "972545880075";
 
 const PICKUP_POINTS = [
   { id: "lachish", label: "משלוח לבית הלקוח (רק בלכיש)" },
